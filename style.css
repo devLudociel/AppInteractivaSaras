@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    background: cover;
+    background-repeat: no-repeat;
+} 
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.color{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.color div{
+    background-color: #874da2;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.color div:hover{
+    transform: translateY(-2px)
+}
+
+.color #red{
+    background-color: #F9161E; 
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+.color #berry{
+    background-color: #C22B51;
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+.color #dusty{
+    background-color: #FB5975;
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+.color #peachy{
+    background-color: #F98263;
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+.color #nude{
+    background-color: #F38757;
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+.color #golden{
+    background-color: #E28E72;
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+.color #moody{
+    background-color: #AB572F;
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+.color #blackChe{
+    background-color: #AC383A;
+    box-shadow: 8px 8px 5px -4px rgba(0,0,0,0.68);
+}
+
+div.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.imgChange{
+    width: 700px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:772px){
+    .color{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .color div{
+        margin-top: 10px;
+    }
+
+    .imgChange{
+        width: 400px;
+        height: 250px;
+        margin-top: 60px
+    }
+}
